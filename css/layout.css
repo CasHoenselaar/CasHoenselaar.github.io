@@ -66,7 +66,7 @@ font-size: 30px;
 }
 
 #showcase{
-  background-image: url("../foto/background.jpg");
+  background-image: url("../Foto/background.jpg");
   background-position:center ;
   min-height: 300px;
   margin-bottom: 40px;
@@ -133,3 +133,43 @@ font-size: 30px;
   position: fixed;
   top:400px
 }
+
+
+<!--DropDownButton-->
+
+.dropdown{
+    display:inline-block;
+    position:relative;
+  }
+  .dropdown button{
+    border:none;
+    padding:8px 16px;
+    background-color:#333;
+    color:white;
+    font-size: 18px;
+  }
+  .dropdown:hover button{
+    background-color:grey;
+  }
+  .dropdown div{
+    background-color:#333;
+    box-shadow:0 4px 8px rgba(0,0,0,0.2);
+    z-index:1;
+    visibility:hidden;
+    position:absolute;
+    min-width:100%;
+    opacity:0;
+    transition:.3s;
+  }
+  .dropdown div a{
+    display:block;
+    padding:8px;
+    white-space:nowrap;
+  }
+  .dropdown div a:hover{
+    background-color:black;
+  }
+    .dropdown:hover div{
+    visibility:visible;
+    opacity:1;
+  }
