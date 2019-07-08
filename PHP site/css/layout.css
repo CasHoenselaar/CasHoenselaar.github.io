@@ -1,8 +1,13 @@
+/*
+The Margin is the extra space around the control.
+The Padding is extra space inside the control.
+*/
+
 body{
   background-color: #f4f4f4;
   color: #555;
   font-family: arial,helvetica,sans-serif;
-  font-size: 16;
+  font-size: 120%;
   line-height: 1.6em;
   margin: 0;
   overflow: scroll;
@@ -22,21 +27,46 @@ body{
 
 #logo{
   float: left;
-
   margin-bottom: 20px;
 }
 
-
-#menuName{
-text-align:center;
-font-size: 30px;
-}
-
-#mainHeader .button{
-  float: right;
-
+#mainHeader .menuName{
+  float: left;
+  text-align:center;
+  padding-left: 30px;
+  padding-top: 0px;
   font-size: 30px;
 }
+
+#mainHeader .header-signup{
+  float: right;
+  padding-right: 10px;
+  padding-top: 30px;
+}
+
+#mainHeader form{
+  float: right;
+  margin-bottom: 20px;
+  padding-top: 30px;
+}
+
+#mainHeader p{
+  float: right;
+  padding-top: 10px;
+  padding-right: 20px;
+}
+
+/* Profielinfo*/
+.profile_info div {
+  display: inline-block;
+  margin: 5px;
+}
+.profile_info:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 .button{
   background-color: #333;
   color: #fff;
@@ -72,6 +102,7 @@ font-size: 30px;
   margin-bottom: 40px;
   text-align: center;
 }
+
 #showcase h1{
   color: #fff;
   font-size: 50px;
@@ -99,6 +130,7 @@ font-size: 30px;
   padding: 10px;
   box-sizing: border-box;
 }
+
 #sidebarContact{
   float: right;
   width: 30%;
@@ -108,7 +140,6 @@ font-size: 30px;
   box-sizing: border-box;
 }
 
-
 #mainFooter{
   background: #333;
   color: #fff;
@@ -116,6 +147,7 @@ font-size: 30px;
   padding: 20px;
   margin-top: 30px;
 }
+
 
 @media(max-width:600px){
   #main{
@@ -128,48 +160,3 @@ font-size: 30px;
     float: none;
   }
 }
-
-.fixMe{
-  position: fixed;
-  top:400px
-}
-
-
-<!--DropDownButton-->
-
-.dropdown{
-    display:inline-block;
-    position:relative;
-  }
-  .dropdown button{
-    border:none;
-    padding:8px 16px;
-    background-color:#333;
-    color:white;
-    font-size: 18px;
-  }
-  .dropdown:hover button{
-    background-color:grey;
-  }
-  .dropdown div{
-    background-color:#333;
-    box-shadow:0 4px 8px rgba(0,0,0,0.2);
-    z-index:1;
-    visibility:hidden;
-    position:absolute;
-    min-width:100%;
-    opacity:0;
-    transition:.3s;
-  }
-  .dropdown div a{
-    display:block;
-    padding:8px;
-    white-space:nowrap;
-  }
-  .dropdown div a:hover{
-    background-color:black;
-  }
-    .dropdown:hover div{
-    visibility:visible;
-    opacity:1;
-  }
