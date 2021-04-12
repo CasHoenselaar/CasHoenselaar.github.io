@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Soundboard</title>
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+  </head>
+
+  <body>
+    <header id="mainHeader">
+      <div class="container">
+          <img id="logo" src="foto/logo.jpg" alt="Logo" width="300">
+          <p id="menuName">SoundBoard</p>
+      </div>
+    </header>
+
+    <nav id="navbar">
+      <div class="container">
+        <div>
+          <ul>
+            <li><a href="index.htm">Home</a></li>
+            <li><a href="soundboard.htm">SoundBoard</a></li>
+            <li><a href="#">N.T.B.</a></li>
+            <li><a href="#">N.T.B.</a></li>
+            <li><a href="#">N.T.B.</a></li>
+            <li><a href="contact.htm">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <section id="showcase">
+      <div class="container">
+        <img id="showcasepic" src="fsoto/soundboard.jpg" alt="showcasepic" height="280">
+
+      </div>
+    </section>
+
+    <div class="container">
+      <section id="main">
+        <h1>Header</h1>
+        <table style="width:100%">
+  <tr>
+    <th><button type="button" class="button" onclick="document.getElementById('sound2').play()">Wat Goed</button></th>
+    <th><button type="button" class="button" onclick="document.getElementById('sound3').play()">Ik hou niet van honden</button></th>
+    <th><button type="button" class="button" onclick="document.getElementById('sound4').play()">Wat is dat lekker hè</button></th>
+  </tr>
+  <tr>
+    <td><button type="button" class="button" onclick="document.getElementById('sound5').play()">Niet likken</button></td>
+    <td><button type="button" class="button" onclick="document.getElementById('sound6').play()">Bye bye man bye bye</button></td>
+    <td><button type="button" class="button" onclick="document.getElementById('sound7').play()">Ráár!</button></td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+</table>
+
+          <audio preload="auto" id="sound2"><source src="sound/watgoed.mp3" type="audio/mpeg">  </audio>
+          <audio preload="auto" id="sound3"><source src="sound/honden.mp3" type="audio/mpeg"></audio>
+          <audio preload="auto" id="sound4"><source src="sound/lekkerhe.mp3" type="audio/mpeg">  </audio>
+          <audio preload="auto" id="sound5"><source src="sound/nietlikken.mp3" type="audio/mpeg"></audio>
+          <audio preload="auto" id="sound6"><source src="sound/byebye.mp3" type="audio/mpeg">  </audio>
+          <audio preload="auto" id="sound7"><source src="sound/raar.mp3" type="audio/mpeg"></audio>
+<!--
+          <button type="button" class="button" onclick="document.getElementById('sound2').play()">Wat Goed</button>
+          <button type="button" class="btn btn-lg btn-block" onclick="document.getElementById('sound3').play()">Ik hou niet van honden</button>
+          <button type="button" class="btn btn-lg btn-block" onclick="document.getElementById('sound4').play()">Wat is dat lekker hè</button>
+          <button type="button" class="btn btn-lg btn-block" onclick="document.getElementById('sound5').play()">Niet likken</button>
+          <button type="button" class="btn btn-lg btn-block" onclick="document.getElementById('sound6').play()">Bye bye man bye bye</button>
+          <button type="button" class="btn btn-lg btn-block" onclick="document.getElementById('sound7').play()">Ráár!</button>
+-->
+
+
+
+      </section>
+
+      <aside id="sidebar">
+        <h1>Header</h1>
+
+      </aside>
+    </div>
+
+
+    <footer id="mainFooter">
+        <p>Copyright &copy; 2019 My website</p>
+    </footer >
+  </body>
+</html>
