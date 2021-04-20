@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Soundboard</title>
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+  </head>
+
+  <body>
+    <header id="mainHeader">
+      <div class="container">
+          <img id="logo" src="foto/logo.jpg" alt="Logo" width="300">
+          <p id="menuName">SoundBoard</p>
+      </div>
+    </header>
+
+    <nav id="navbar">
+      <div class="container">
+        <div>
+          <ul>
+            <li><a href="index.htm">Home</a></li>
+            <li>
+              <div class="dropdown">
+                <button class="dropbtn">Soundboard</button>
+                <div class="dropdown-content">
+                  <a href="gerard.htm">Gerard</a>
+                  <a href="soup.htm">CupASoup</a>
+                </div>
+              </div>
+            </li>
+            <li><a href="#">N.T.B.</a></li>
+            <li><a href="#">N.T.B.</a></li>
+            <li><a href="#">N.T.B.</a></li>
+            <li><a href="contact.htm">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <section id="showcase">
+      <div class="container">
+        <!--<img id="showcasepic" src="foto/soundboard.jpg" alt="showcasepic" height="280">-->
+
+      </div>
+    </section>
+
+    <div class="containerCenter">
+      <section id="mainCenter">
+        <h1>Gerard</h1>
+
+        <audio preload="auto" id="sound1"><source src="honden.mp3" type="audio/mpeg"></audio>
+        <audio preload="auto" id="sound2"><source src="nietlikken.mp3" type="audio/mpeg"></audio>
+        <audio preload="auto" id="sound3"><source src="byebye.mp3" type="audio/mpeg">  </audio>
+        <audio preload="auto" id="sound4"><source src="dielucht.mp3" type="audio/mpeg"></audio>
+        <audio preload="auto" id="sound5"><source src="duitseschalplate.mp3" type="audio/mpeg"></audio>
+        <audio preload="auto" id="sound6"><source src="duitsland.mp3" type="audio/mpeg"></audio>
+        <audio preload="auto" id="sound7"><source src="guttemitag.mp3" type="audio/mpeg">  </audio>
+        <audio preload="auto" id="sound8"><source src="kzalkijken.mp3" type="audio/mpeg"></audio>
+        <audio preload="auto" id="sound9"><source src="p-no.mp3" type="audio/mpeg">  </audio>
+        <audio preload="auto" id="sound10"><source src="raar.mp3" type="audio/mpeg"></audio>
+        <audio preload="auto" id="sound11"><source src="rockroll.mp3" type="audio/mpeg"></audio>
+        <audio preload="auto" id="sound12"><source src="watisdatlekkerhe.mp3" type="audio/mpeg"></audio>
+        <audio preload="auto" id="sound13"><source src="wiedatikben.mp3" type="audio/mpeg"></audio>
+
+
+        <table style="width:100%">
+          <tr>
+            <th><button type="button" class="button" onclick="document.getElementById('sound1').play()">Ik hou niet van honden</button></th>
+            <th><button type="button" class="button" onclick="document.getElementById('sound2').play()">Niet likken</button></th>
+            <th><button type="button" class="button" onclick="document.getElementById('sound3').play()">Bye bye man bye bye</button></th>
+            <td><button type="button" class="button" onclick="document.getElementById('sound4').play()">Die luuuuucht</button></td>
+          </tr>
+          <tr>
+            <td><button type="button" class="button" onclick="document.getElementById('sound5').play()">Eine Deutsche Schallplatte</button></td>
+            <td><button type="button" class="button" onclick="document.getElementById('sound6').play()">Duitsland</button></td>
+            <td><button type="button" class="button" onclick="document.getElementById('sound7').play()">Gute mittag</button></td>
+            <td><button type="button" class="button" onclick="document.getElementById('sound8').play()">Ik zal kijken wat ik voor je kan doen</button></td>
+          </tr>
+          <tr>
+            <td><button type="button" class="button" onclick="document.getElementById('sound9').play()">P--no!</button></td>
+            <td><button type="button" class="button" onclick="document.getElementById('sound10').play()">Ráár!</button></td>
+            <td><button type="button" class="button" onclick="document.getElementById('sound11').play()">Rock & Roll</button></td>
+            <td><button type="button" class="button" onclick="document.getElementById('sound12').play()">Wat is dat lekker hè</button></td>
+          </tr>
+          <tr>
+            <td><button type="button" class="button" onclick="document.getElementById('sound13').play()">Wie denk jij dat ik ben, pipo de clown</button></td>
+          </tr>
+        </table>
+      </section>
+    </div>
+
+    <footer id="mainFooter">
+        <p>Copyright &copy; 2021 My website</p>
+    </footer >
+  </body>
+</html>
