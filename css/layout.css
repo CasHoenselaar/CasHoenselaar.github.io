@@ -13,12 +13,13 @@ body{
   margin: auto;
   overflow: hidden;
 }
-.containerCenter{
 
+.containerCenter{
   width: 100%;
   margin: auto;
   overflow: hidden;
 }
+
 #mainHeader{
   padding-top: 20px;
   background-color: #09296B;
@@ -27,7 +28,6 @@ body{
 
 #logo{
   float: left;
-
   margin-bottom: 20px;
 }
 
@@ -39,9 +39,9 @@ font-size: 30px;
 
 #mainHeader .button{
   float: right;
-
   font-size: 30px;
 }
+
 .button{
   background-color: #333;
   color: #fff;
@@ -52,6 +52,7 @@ font-size: 30px;
   width: 180px;
   height: 180px;
 }
+
 .button:hover{
   color: red;
 }
@@ -84,7 +85,9 @@ font-size: 30px;
   display: block;
 }
 
-.dropdown-content a:hover {background-color: green}
+.dropdown-content a:hover {
+  background-color: green
+}
 
 .dropdown:hover .dropdown-content {
   display: block;
@@ -98,13 +101,16 @@ font-size: 30px;
   background-color:#333;
   color: #fff;
 }
+
 #navbar ul{
   padding: 0;
   list-style: none;
 }
+
 #navbar li{
   display: inline;
 }
+
 #navbar a{
   color: #fff;
   text-decoration: none;
@@ -120,6 +126,7 @@ font-size: 30px;
   margin-bottom: 40px;
   text-align: center;
 }
+
 #showcase h1{
   color: #fff;
   font-size: 50px;
@@ -138,6 +145,7 @@ font-size: 30px;
   list-style-type: none;
   padding-left: 0px;
 }
+
 #mainCenter{
   float: center;
   position: center;
@@ -156,6 +164,7 @@ font-size: 30px;
   padding: 10px;
   box-sizing: border-box;
 }
+
 #sidebarContact{
   float: right;
   width: 30%;
@@ -164,7 +173,6 @@ font-size: 30px;
   padding: 10px;
   box-sizing: border-box;
 }
-
 
 #mainFooter{
   background: #333;
